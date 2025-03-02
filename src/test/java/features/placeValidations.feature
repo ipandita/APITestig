@@ -9,9 +9,9 @@ Scenario Outline: Verify if Place is being Succesfully added using AddPlaceAPI
 	And verify place_Id created maps to "<name>" using "getPlaceAPI"
 	
 Examples:
-	|name 	 | language |address		   |
-	|AAhouse |  English |World cross center|
-	|BBhouse | Spanish  |Sea cross center  |
+	|name 	 | language |address		    |
+	|AAhouse |  English |World cross center |
+	|BBhouse | Spanish  |Sea cross centerrr  |
 
 @DeletePlace @Regression
 Scenario: Verify if Delete Place functionality is working
